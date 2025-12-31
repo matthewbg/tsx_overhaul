@@ -11,7 +11,7 @@ function createWindow() {
     }
   });
   {
-    win.loadURL("http://localhost:5174").catch(console.error);
+    win.loadURL("http://localhost:5173").catch(console.error);
     win.webContents.openDevTools();
   }
 }

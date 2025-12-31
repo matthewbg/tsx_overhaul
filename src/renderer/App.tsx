@@ -9,6 +9,7 @@ export default function App() {
       <nav style={{ display: "flex", gap: 12, marginBottom: 16 }}>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
+        <Link to="/pingtool">Ping Tool</Link>
       </nav>
       <AppRoutes />
     </div>
